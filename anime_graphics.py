@@ -13,6 +13,7 @@ class AnimeGraphic:
         self.screen.config(width=1280, height=720)
         self.submit_button = Button(text="Submit", width=20)
         self.submit_box = Entry()
+        self.submit_box.pack()
         self.submit_button.place(x=640, y=360)
         self.screen.mainloop()
 
